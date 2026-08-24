@@ -11,7 +11,7 @@ Material del taller de Jira, en construcción. Sigue el mismo enfoque que el [Ta
 | [`00-presentacion-teorica/`](00-presentacion-teorica) | Repaso de Roles, Artefactos y Eventos de Scrum, con el mapeo completo a Jira siguiendo una historia de usuario de principio a fin | ✅ Listo |
 | [`01-fundamentos-y-configuracion/`](01-fundamentos-y-configuracion/01-Fundamentos_y_Configuracion_Jira.md) | Cuenta, primer proyecto Scrum, y el modelo mental de qué es Jira realmente | ✅ Listo |
 | [`02-backlog-y-sprints/`](02-backlog-y-sprints/02-Backlog_y_Sprints_Jira.md) | Construcción del Backlog, Sprint Planning, y ejecución de un sprint completo | ✅ Listo |
-| `03-colaboracion-equipo-y-github/` | Práctica en equipo real + conexión con GitHub (issue key en el nombre de rama, panel Development) | ⬜ Pendiente |
+| [`03-colaboracion-equipo-y-github/`](03-colaboracion-equipo-y-github/03-Colaboracion_Equipo_y_GitHub_Jira.md) | Práctica en equipo real + conexión con GitHub (issue key en el nombre de rama, panel Development) | ✅ Listo |
 | `04-faq-modelos-mentales/` | Referencia de consulta continua — crecerá con los tropiezos reales del taller, igual que el de Git | ⬜ Pendiente |
 
 ## Nota sobre el orden
@@ -20,4 +20,4 @@ Esta estructura es una apuesta razonable basada en cómo funcionó el taller de 
 
 ---
 
-*Última actualización: presentación teórica, fundamentos/configuración, y backlog/sprints listos. Falta colaboración en equipo + GitHub, y el FAQ (crecerá con la práctica real).*
+*Última actualización: presentación teórica, fundamentos/configuración, backlog/sprints y colaboración en equipo con GitHub listos. Solo falta el FAQ — crecerá con lo que salga en la práctica en vivo, igual que pasó con Git.*
