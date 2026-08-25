@@ -12,7 +12,7 @@ Un integrante del equipo (con permisos de administrador tanto del sitio de Jira 
 
 Esto se hace **una sola vez por equipo**.
 
-## 2. La convención que lo conecta todo: la clave de Jira en el nombre de la rama
+## 2. La convención que conecta la clave de Jira en el nombre de la rama
 
 Cada historia en Jira tiene una clave única (ej. `SIE-13` — la tuya puede ser distinta, según cómo hayan nombrado su proyecto). Cuando nombran su rama incluyendo esa clave:
 
