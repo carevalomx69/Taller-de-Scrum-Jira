@@ -34,7 +34,7 @@ Van a repetir el mismo ejercicio de branches que ya hicieron (tabla de alumnos, 
    git pull
    git checkout -b SIE-13-tabla-alumnos
    ```
-4. Trabajen, hagan commit y suban su rama exactamente como ya saben:
+4. Trabajen, hagan commit y suban su rama exactamente como se practicó en el taller de Git:
    ```bash
    git add .
    git commit -m "SIE-13 agrega tabla de alumnos de ejemplo"
