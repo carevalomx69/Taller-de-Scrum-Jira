@@ -34,9 +34,13 @@ Una Épica es un cuerpo de trabajo grande que agrupa varias historias afines (ej
 
 ## 3. Story Points — estimación rápida, sin obsesionarse
 
-Jira usa por default una escala tipo Fibonacci (1, 2, 3, 5, 8...). Asígnenle un número a cada historia como referencia de tamaño relativo — no como ciencia exacta.
+**¿Qué es un story point, realmente?** Es una medida de tamaño **relativo**, no de tiempo. Un story point no equivale a "tantas horas" — combina a la vez tres cosas: cuánto trabajo hay que hacer, qué tan complicado es, y cuánta incertidumbre o riesgo tiene. Por eso dos historias con "la misma cantidad de código" pueden merecer puntos distintos, si una es rutinaria y la otra tiene partes que nadie del equipo ha hecho antes.
 
-**No le dediquen más de un par de minutos a estimar cada historia** — ese exceso de precisión es exactamente el tipo de "teatro ágil" que este curso busca evitar.
+**La pregunta correcta no es "¿cuántas horas me va a tomar?"**, sino **"¿qué tan grande es esto, comparado con otra historia que ya calificamos?"** — es una comparación relativa entre historias, no una medición absoluta de tiempo. Por ejemplo: si ya le pusieron 2 puntos a "agregar un campo al formulario de contacto", y la historia nueva se siente aproximadamente el doble de trabajo/complejidad/riesgo, probablemente es un 5, no un 4 (ver el siguiente punto sobre por qué).
+
+Jira usa por default una escala tipo Fibonacci (1, 2, 3, 5, 8, 13...) **y no números consecutivos, a propósito**: entre más grande es una historia, más difícil es estimarla con precisión — los huecos crecientes entre los números reflejan esa incertidumbre real, en vez de fingir que pueden distinguir con exactitud entre un 11 y un 12.
+
+**No le dediquen más de un par de minutos a estimar cada historia** — ese exceso de precisión es exactamente el tipo de "teatro ágil" que este curso busca evitar. Lo que de verdad calibra al equipo con el tiempo no es la estimación en sí, sino su **Velocity** real (cuántos puntos completan por sprint, sprint tras sprint, sección 8) — eso aterriza la escala a la realidad de su propio equipo, no una tabla de conversión a horas.
 
 ## 4. Antes de planear: la Definition of Done (DoD)
 
