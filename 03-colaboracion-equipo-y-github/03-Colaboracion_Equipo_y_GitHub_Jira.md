@@ -43,7 +43,7 @@ Van a repetir el mismo ejercicio de branches que ya hicieron (tabla de alumnos, 
 5. Abran el Pull Request en GitHub, como siempre.
 6. **Vayan a Jira, abran esa historia, y busquen el panel "Development"** — ahí debe aparecer su rama, su commit y su Pull Request, vinculados solos.
 
-**Si el panel "Development" no muestra nada:** lo más común es que la clave (`SIE-13`) no quedó exactamente igual en el nombre de la rama o en el mensaje del commit — revisen que no haya espacios ni errores de dedo en la clave.
+**Si el panel "Development" no muestra nada:** lo más común es que la clave (`SIE-13`) no quedó exactamente igual en el nombre de la rama o en el mensaje del commit. Revisen que no haya espacios ni errores de dedo en la clave.
 
 ## 4. Cerrando el ciclo completo
 
@@ -51,7 +51,7 @@ Cuando el Pull Request se fusione (con revisión de un compañero, como ya pract
 
 ## 5. Opcional, si les da tiempo: agreguen a su cliente real
 
-Como el plan gratuito permite hasta 10 usuarios por sitio, si su equipo es de 4-6 integrantes, todavía hay margen para invitar a su cliente real como colaborador — viendo y priorizando el Backlog directamente, no solo en la Sprint Review.
+Como el plan gratuito permite hasta 10 usuarios por sitio, si su equipo es de 4-6 integrantes, todavía hay margen para invitar a su cliente real como colaborador, viendo y priorizando el Backlog directamente, no solo en la Sprint Review.
 
 ### ✅ Checkpoint de esta sesión
 
