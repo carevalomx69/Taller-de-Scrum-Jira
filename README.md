@@ -13,6 +13,7 @@ Material del taller de Jira, en construcción. Sigue el mismo enfoque que el [Ta
 | [`02-backlog-y-sprints/`](02-backlog-y-sprints/02-Backlog_y_Sprints_Jira.md) | Construcción del Backlog, Sprint Planning, y ejecución de un sprint completo | ✅ Listo |
 | [`03-colaboracion-equipo-y-github/`](03-colaboracion-equipo-y-github/03-Colaboracion_Equipo_y_GitHub_Jira.md) | Práctica en equipo real + conexión con GitHub (issue key en el nombre de rama, panel Development) | ✅ Listo |
 | `04-faq-modelos-mentales/` | Referencia de consulta continua — crecerá con los tropiezos reales del taller, igual que el de Git | ⬜ Pendiente |
+| [`05-simulacion-sprint/`](05-simulacion-sprint/05-Simulacion_Sprint_Jira.md) | Mini-proyecto de práctica: un sprint completo con cliente ficticio (profesor como Product Owner), antes de los clientes reales de vinculación | ✅ Listo |
 
 ## Nota sobre el orden
 
@@ -20,4 +21,4 @@ Esta estructura es una apuesta razonable basada en cómo funcionó el taller de 
 
 ---
 
-*Última actualización: presentación teórica, fundamentos/configuración, backlog/sprints y colaboración en equipo con GitHub listos. Solo falta el FAQ — crecerá con lo que salga en la práctica en vivo, igual que pasó con Git.*
+*Última actualización: presentación teórica, fundamentos/configuración, backlog/sprints, colaboración en equipo con GitHub, y la simulación de sprint listos. Solo falta el FAQ — crecerá con lo que salga en la práctica en vivo, igual que pasó con Git.*
