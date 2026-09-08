@@ -56,16 +56,37 @@ Antes de iniciar su primer sprint, el equipo debe acordar explícitamente **qué
 
 **Por qué importa:** sin DoD explícita, es común que una historia se marque "Done" con código a medias, sin probar, o sin revisar — perdiendo el valor real de tener una columna "Done" en primer lugar.
 
-## 5. Sprint Planning — iniciar el sprint
+## 5. Antes de planear, también: Convenciones Técnicas del Equipo
+
+Hay decisiones que el equipo necesita acordar **una sola vez**, al mismo tiempo que la Definition of Done — no porque generen valor visible para el cliente, sino porque sin ellas los commits de distintas personas no van a combinar bien entre sí. Dos ejemplos típicos: la estética del frontend, y las entidades base de la base de datos.
+
+**Esto no contradice trabajar por historias — lo hace posible.** Así como construir "cuarto por cuarto" (en vez de por capas completas) sí requiere acordar de antemano cosas estructurales compartidas (por dónde entra la tubería, la altura de techo), trabajar por historias también requiere un puñado de acuerdos mínimos compartidos antes del primer "cuarto" — sin diseñar cada cuarto a detalle por adelantado.
+
+**Estética del frontend:** usen las variables CSS en `:root` (`--color-primario`, `--color-secundario`, etc.) que ya vieron en el proyecto de práctica de Git. El equipo decide la paleta y tipografía en un par de minutos, y **una sola Task** ("Crear archivo base de estilos con paleta acordada") deja el archivo listo — cada historia después solo usa esas variables, no inventa colores nuevos.
+
+**Entidades base de la base de datos — la pregunta que más genera dudas:**
+
+Es normal sentir que esto choca con lo que enseña un curso clásico de Bases de Datos ("diseña, normaliza y modela todo primero"). No es una contradicción real, una vez que se separan dos preguntas distintas:
+
+- **Normalización** responde *"¿qué tan bien diseñada está esta tabla?"* — una cuestión de calidad, siempre vigente.
+- **Ágil** responde *"¿cuándo y cuánto diseñamos de una vez?"* — una cuestión de momento y alcance, no de rigor.
+
+Esta forma de trabajar tiene nombre propio en la ingeniería de software: **diseño evolutivo de bases de datos** (Scott Ambler, *Agile Database Techniques*; también descrito por Martin Fowler como *database refactoring*). La idea: el esquema evoluciona con cambios controlados y normalizados, uno a la vez — no se congela desde el día uno, pero tampoco se improvisa sin cuidado.
+
+En la práctica, el equipo sí debe acordar por adelantado un **modelo conceptual ligero**: las 3-5 entidades principales y sus relaciones más obvias (para la veterinaria: Cliente, Mascota, Cita — una Mascota pertenece a un Cliente). Eso es, literalmente, la primera mitad de lo que ya enseña su curso de BD — el diagrama entidad-relación conceptual. Lo que **no** se hace por adelantado es el modelo relacional completo, ya normalizado, con cada atributo definido — eso se construye historia por historia, con el mismo rigor de siempre, solo que aplicado a un pedazo a la vez, no al sistema completo de una sentada.
+
+Es la misma idea que ya vieron en el Manifiesto Ágil (Unidad I): *"no es 'no documentar', es documentar lo suficiente"* — aquí es *"no es 'no diseñar la base de datos', es diseñar lo suficiente para arrancar, dejando que el detalle se resuelva historia por historia."*
+
+## 6. Sprint Planning — iniciar el sprint
 
 1. En el Backlog, arrastren 2-4 historias desde el bloque "Backlog" hacia el bloque de sprint (ej. "Sprint 1").
 2. Denle clic a **"Iniciar sprint"** — les va a pedir duración (una o dos semanas está bien) y, opcionalmente, un Sprint Goal (una oración que resuma el propósito de este sprint).
 
-## 6. Trabajando el sprint — el Tablero
+## 7. Trabajando el sprint — el Tablero
 
 Durante el sprint, cada integrante mueve sus propias tarjetas por las columnas del tablero (To Do → In Progress → Done) conforme avanza. El tablero es el reflejo visual del Daily Scrum — no lo sustituye.
 
-## 7. Cerrando el sprint — la pantalla de "Completar sprint"
+## 8. Cerrando el sprint — la pantalla de "Completar sprint"
 
 Al terminar la duración (o cuando decidan cerrarlo), denle clic a **"Completar sprint"**. Si queda alguna historia sin terminar, Jira les va a preguntar a dónde moverla:
 
@@ -76,7 +97,7 @@ Al terminar la duración (o cuando decidan cerrarlo), denle clic a **"Completar 
 
 En la práctica real, algunos equipos sí eligen "Nuevo sprint" por pragmatismo — no es una regla absoluta, es una decisión de equipo que vale la pena discutir explícitamente en su primera Retrospectiva.
 
-## 8. Leyendo los Reportes
+## 9. Leyendo los Reportes
 
 En el menú del proyecto, busquen **Reports**:
 
