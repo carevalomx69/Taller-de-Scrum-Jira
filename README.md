@@ -15,6 +15,7 @@ Material del taller de Jira, en construcción. Sigue el mismo enfoque que el [Ta
 | `04-faq-modelos-mentales/` | Referencia de consulta continua — crecerá con los tropiezos reales del taller, igual que el de Git | ⬜ Pendiente |
 | [`05-simulacion-sprint/`](05-simulacion-sprint/05-Simulacion_Sprint_Jira.md) | Mini-proyecto de práctica: un sprint completo con cliente ficticio (profesor como Product Owner), antes de los clientes reales de vinculación | ✅ Listo |
 | [`06-rubrica-de-evaluacion/`](06-rubrica-de-evaluacion/06-Rubrica_Evaluacion_Parcial.md) | Rúbrica del examen parcial: evaluación basada en evidencia de Jira/GitHub + entrevista individual, sin depender de conteo de commits | ✅ Listo |
+| [`07-primera-entrevista-cliente/`](07-primera-entrevista-cliente/01-Guia_Primera_Entrevista_Cliente.md) | Guía para la primera entrevista con la empresa real: cómo entender el negocio, identificar historias de usuario prioritarias, delimitar alcance y levantar datos, sin usar jerga técnica con el cliente | ✅ Listo |
 
 ## Nota sobre el orden
 
@@ -22,4 +23,6 @@ Esta estructura es una apuesta razonable basada en cómo funcionó el taller de 
 
 ---
 
-*Última actualización: presentación teórica, fundamentos/configuración, backlog/sprints, colaboración en equipo con GitHub, simulación de sprint, y rúbrica de evaluación listos. Solo falta el FAQ — crecerá con lo que salga en la práctica en vivo, igual que pasó con Git.*
+*Última actualización: presentación teórica, fundamentos/configuración, backlog/sprints, colaboración en equipo con GitHub, simulación de sprint, rúbrica de evaluación y guía de primera entrevista con cliente real listos. Solo falta el FAQ — crecerá con lo que salga en la práctica en vivo, igual que pasó con Git.*
+
+---
